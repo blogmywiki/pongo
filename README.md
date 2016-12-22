@@ -4,7 +4,7 @@ Wireless Pong for 2 BBC micro:bits
 ![alt text](http://www.suppertime.co.uk/blogmywiki/wp-content/uploads/2016/12/DSCF85883.jpg)
 
 ## Introduction
-I love the wireless capabilities of Python on the BBC microbit and I’ve been using it with some success in my Year 8 classes.
+I love the wireless capabilities of Python on the BBC microbit and [I’ve been using it with some success in my Year 8 classes.](http://www.suppertime.co.uk/blogmywiki/2016/11/microbit-radio/)
 
 I thought I’d have a go at writing a wireless Pong game in Python – it took me a lot longer than I expected for various reasons. I really wanted to have the same code running on both microbits, but I soon abandoned that as too complex. Much easier to have one microbit – Player A – controlling the game and deciding who gets a point and when. Player B is the ‘slave’ only sending its left and right paddle moves back to Player A and mirroring (literally) Player A’s screen.
 
